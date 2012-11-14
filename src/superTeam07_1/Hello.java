@@ -16,7 +16,8 @@ public class Hello extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
-		response.getWriter().print("Sina lisa siia rida success! ");
+		response.getWriter().println("Sina lisa siia rida success! ");
+		response.getWriter().println("Minu success rida !!!");
 
 		
 		response.getWriter().print("Sina lisa siia rida success!2222 ");
