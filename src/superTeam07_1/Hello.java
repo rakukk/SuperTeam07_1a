@@ -20,9 +20,9 @@ public class Hello extends HttpServlet {
 		response.getWriter().println("Minu success rida !!!");
 
 		
-		response.getWriter().print("Sina lisa siia rida success!2222 ");
+		response.getWriter().println("Sina lisa siia rida success!2222 ");
 
-		
+		response.getWriter().println("Hetkel minu viimane katse");
 		
 	}
 
