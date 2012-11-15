@@ -23,6 +23,9 @@ public class Hello extends HttpServlet {
 		response.getWriter().println("Sina lisa siia rida success!2222 ");
 
 		response.getWriter().println("Hetkel minu viimane katse");
+
+		response.getWriter().println("OK");
+
 		
 	}
 
